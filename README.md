@@ -5,6 +5,7 @@ cd ddclient && docker-compose up -d
 
 chmod 600 ./traefik/data/acme.json
 nano ./traefik/.env
+nano ./traefikdata/traefik.yml # correo
 cd traefik && docker-compose up -d
 
 nano ./web/.env
